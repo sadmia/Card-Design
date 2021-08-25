@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+.body-div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: linear-gradient(#03a9f4 50%,  #fff 45%);
+}
+
+.card-div {
+	position: relative;
+	margin-top: 50px;
+	width: 300px;
+	height: 430px;
+	background: #fff;
+	border-radius: 10px;
+	background: rgb(255,255,255,0.1);
+	border-top: 1px solid rgb(255,255,255,0.5);
+	backdrop-filter: blur(10px);
+	box-shadow: 0px 30px 30px #3332;
+}
+
+.images-div {
+	width: 60%;
+	height: 55%;
+	margin: 30px auto;
+	background-color: #3335;
+}
+.images-div img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.card-div h3 {
+	text-align: center;
+	font-size: 24px;
+	color: #333;
+	margin-top: 0px;
+	font-weight: 500;
+}
+.card-div p {
+	text-align: center;
+	font-size: 17px;
+	color: #03a9f4;
+	margin-top: 5px;
+}
+
+.card-div ul {
+	text-align: center;
+	margin-top: 15px;
+}
+.card-div ul a {
+	text-decoration: none;
+}
+.card-div ul a li {
+	display: inline-block;
+	margin: 0px 2px;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 45px;
+	background-color: #fff;
+	box-shadow: 0px 10px 20px #3332;
+	transition: 0.3s;
+	font-size: 20px;
+	color: #333;
+}
+.card-div ul a li:hover {
+	background-color: #03a9f4;
+	color: #fff;
+}
