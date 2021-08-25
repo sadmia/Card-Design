@@ -1,2 +1,1 @@
-# Card-Design
-CSS Glassmorphism Card Design And Hover Effect HTML &amp; CSS
+Card Design Live View Link : https://sadmia.github.io/Card-Design/
